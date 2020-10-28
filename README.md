@@ -1,6 +1,6 @@
 # etherscan-java-api
 
-[![](https://jitpack.io/v/justinelock/java-etherscan-api.svg)](https://jitpack.io/#justinelock/java-etherscan-api)
+[![](https://jitpack.io/v/justinelock/etherscan-java-api.svg)](https://jitpack.io/#justinelock/etherscan-java-api)
 
 ## Dependency :rocket:
 
@@ -16,7 +16,7 @@
 **Gradle**
 ```groovy
 dependencies {
-    compile 'com.github.justinelock:java-etherscan-api:1.0'
+    compile 'com.github.justinelock:etherscan-java-api:1.0'
 }
 ```
 
