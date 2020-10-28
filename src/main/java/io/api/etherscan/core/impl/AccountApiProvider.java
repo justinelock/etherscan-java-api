@@ -256,7 +256,7 @@ public class AccountApiProvider extends BasicProvider implements IAccountApi {
     @NotNull
     @Override
     public List<TxToken> getTxsToken(final String address, final long startBlock, final int page, final int offset, final String sort) throws ApiException {
-        return getTxsToken(address, startBlock, OFFSET_MAX_DEFAULT, page, offset, sort);
+        return getTxsToken(address, startBlock, MAX_END_BLOCK_DEFAULT, page, offset, sort);
     }
 
     @NotNull
